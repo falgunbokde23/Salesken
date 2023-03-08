@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.salesken.exception.SubjectDetailsException;
 import com.salesken.repository.SubjectDetailsRepo;
 
+@service;
 public class SubjectsDetailsImpl implements SubjectsDetailsInterface {
 
 	@Autowired
